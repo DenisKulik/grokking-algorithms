@@ -2,8 +2,8 @@ function selection_sort<T>(array: T[]): T[] {
     for (let i = 0; i < array.length; i++) {
         let min_index = i
 
-        for (let j = i+1; j < array.length; j++) {
-            if(array[j] < array[min_index]) {
+        for (let j = i + 1; j < array.length; j++) {
+            if (array[j] < array[min_index]) {
                 min_index = j
             }
         }
